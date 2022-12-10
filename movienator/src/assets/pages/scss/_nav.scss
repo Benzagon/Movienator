@@ -1,3 +1,20 @@
 .nav {
     background-color: #D09914;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50vw;
+
+    position: fixed;
+    width: 100%;
+
+    &-left{
+        span {
+            background-color: rebeccapurple;
+            height: 1px;
+            width: 20px;
+        }
+    }
 }

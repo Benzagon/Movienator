@@ -1,0 +1,79 @@
+.flick{
+    font-family: 'Inter';
+    padding-top: 20vh;
+
+    &-filters{
+        margin-right: 15vw;
+        display: flex;
+        justify-content: right;
+
+        button{
+            color: white;
+
+            width: 200px;
+            height: 50px;
+        
+            background: #F66464;
+            border: 0;
+            border-radius: 5px;
+        
+            font-weight: 400;
+            font-size: 20px;
+        
+            &:hover{
+                opacity: 80%;
+            }
+        }
+    }
+
+    &-center{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    h1{
+        font-style: italic;
+        font-weight: 700;
+        font-size: 68px;
+
+        color: #FEC535;
+    }
+
+    h2{
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    &-subscribe{
+        background-color: #FEC535;
+        width: 300px;
+        border-radius: 10px;
+
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+.red-btn{
+    color: white;
+
+    width: 275px;
+    height: 80px;
+
+    background: #F66464;
+    border: 0;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 45px;
+
+    &:hover{
+        opacity: 80%;
+    }
+}

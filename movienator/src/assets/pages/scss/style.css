@@ -1,3 +1,84 @@
 .nav {
   background-color: #D09914;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50vw;
+  position: fixed;
+  width: 100%;
+}
+.nav-left span {
+  background-color: rebeccapurple;
+  height: 1px;
+  width: 20px;
+}
+
+html {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+  background-color: #353535;
+}
+
+.flick {
+  font-family: "Inter";
+  padding-top: 20vh;
+}
+.flick-filters {
+  margin-right: 15vw;
+  display: flex;
+  justify-content: right;
+}
+.flick-filters button {
+  color: white;
+  width: 200px;
+  height: 50px;
+  background: #F66464;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.flick-filters button:hover {
+  opacity: 80%;
+}
+.flick-center {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.flick h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 68px;
+  color: #FEC535;
+}
+.flick h2 {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+}
+.flick-subscribe {
+  background-color: #FEC535;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.red-btn {
+  color: white;
+  width: 275px;
+  height: 80px;
+  background: #F66464;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.red-btn:hover {
+  opacity: 80%;
 }/*# sourceMappingURL=style.css.map */
